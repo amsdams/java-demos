@@ -1,0 +1,13 @@
+application {
+  config {
+    baseName store
+    packageName com.adyen.demo.store
+    authenticationType jwt
+    prodDatabaseType mysql
+    buildTool gradle
+    clientFramework react
+    useSass true
+    enableTranslation false
+  }
+  entities *
+}
