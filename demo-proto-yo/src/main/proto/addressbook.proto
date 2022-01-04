@@ -1,0 +1,17 @@
+
+package protobuf;
+
+option java_package = "com.example.protobuf";
+option java_outer_classname = "AddressBookProtos";
+
+message APerson {
+  required string name = 1;
+  required int32 id = 2;
+  optional string email = 3;
+
+  repeated string numbers = 4;
+}
+
+message AddressBook {
+  repeated APerson people = 1;
+}
