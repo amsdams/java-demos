@@ -1,0 +1,7 @@
+package com.amsdams.testgroovy.config.fields;
+
+public enum Type {
+	STRING, INTEGER, LONG, FLOAT, DOUBLE, BIG_DECIMAL, LOCAL_DATE, INSTANT, ZONED_DATE_TIME, DURATION, UUID, BOOLEAN,
+	ENUMERATION, BLOB;
+
+}

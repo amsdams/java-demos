@@ -1,0 +1,91 @@
+{
+	"name" : "test2",
+	"groupId": "com.amsdams",
+	"artifactId": "lalala",
+	"entities": [
+		{
+			"name": "Album",
+			"fields": [
+				{
+					"name": "string_",
+					"type": "STRING",
+					"validation": null
+				},
+				{
+					"name": "long_",
+					"type": "LONG",
+					"validation": null
+				},
+				{
+					"name": "integer_",
+					"type": "INTEGER",
+					"validation": null
+				},
+				{
+					"name": "duration_",
+					"type": "DURATION",
+					"validation": null
+				},
+				{
+					"name": "double_",
+					"type": "DOUBLE",
+					"validation": null
+				},
+				{
+					"name": "instant_",
+					"type": "INSTANT",
+					"validation": null
+				},
+				{
+					"name": "zoned_date_time",
+					"type": "ZONED_DATE_TIME",
+					"validation": null
+				},
+				{
+					"name": "uuid_",
+					"type": "UUID",
+					"validation": null
+				},
+				{
+					"name": "boolean_",
+					"type": "BOOLEAN",
+					"validation": null
+				}
+			],
+			"relations": [
+				{
+					"name": "artist",
+					"entity": "Artist",
+					"mapping": "ONE_TO_ONE"
+				},
+				{
+					"name": "tracks",
+					"entity": "Track",
+					"mapping": "ONE_TO_MANY"
+				}
+			]
+		},
+		{
+			"name": "artist",
+			"fields": [
+				{
+					"name": "title",
+					"type": "STRING",
+					"validation": null
+				}
+			],
+			"relations": []
+		},
+		{
+			"name": "track",
+			"fields": [
+				{
+					"name": "title",
+					"type": "STRING",
+					"validation": null
+				}
+			],
+			"relations": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "test2",
+	"groupId": "com.amsdams",
+	"artifactId": "lalala",
+	"entities": [
+		{
+			"name": "Pet",
+			"fields": [
+				{
+					"name": "name",
+					"type": "STRING",
+					"validation": null
+				}
+			]
+		}
+	]
+}
